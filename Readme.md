@@ -6,3 +6,5 @@ dpkg: problemas de dependencias impiden la configuración de jtdx:
   El paquete `libqt5multimedia5' no está instalado.
  jtdx depende de libqt5multimedia5-plugins (>= 5.2); sin embargo:
   El paquete `libqt5multimedia5-plugins' no está instalado.
+  
+  apt --fix-broken install
