@@ -9,4 +9,4 @@ dpkg: problemas de dependencias impiden la configuración de jtdx:
   
   apt --fix-broken install
   
-  sudo dpkg -I prey_0.5.3-ubuntu2_all.deb | grep Depends
+  sudo dpkg -I jtdx-2.2.0-rc152_u_armhf.deb | grep Depends
