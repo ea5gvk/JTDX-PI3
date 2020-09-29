@@ -8,3 +8,5 @@ dpkg: problemas de dependencias impiden la configuración de jtdx:
   El paquete `libqt5multimedia5-plugins' no está instalado.
   
   apt --fix-broken install
+  
+  sudo dpkg -I prey_0.5.3-ubuntu2_all.deb | grep Depends
